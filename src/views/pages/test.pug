@@ -13,34 +13,25 @@ block manifestBrowserconfigFiles
   meta(name='msapplication-config' content='../browserconfig.xml')
 
 block content
-  header
-    a.menu-icon.nav-toggle.open(href='#') Menu
-    a.menu-icon.nav-toggle(href='#') Close
-    nav.main-navigation
-      ul
-        li
-          a(href='#') Hosting
-        li
-          a(href='#') Domains
-        li
-          a(href='#') Design
-        li.dropdown
-          a.dropdown-toggle(href='#', data-toggle='dropdown', aria-expanded='true')
-            | More
-            b.caret
-          ul#menu1.dropdown-menu
-            li
-              a(href='#') About
-            li
-              a(href='#') Contact
-            li
-              a(href='#') Enter Our Store
-            li
-              a(href='#') Customer cPanel Login
-  section
-      h2 Hello
-      h1 full 
- 
-
-       
-
+  .block-1
+    .sticky 
+      .nav
+        input#nav-check(type='checkbox')
+        .nav-header
+          .nav-title
+            | JoGeek
+        .nav-btn
+          label(for='nav-check')
+            span
+            span
+            span
+        .nav-links
+          a(href='#') Github
+          a(href='#') Stackoverflow
+          a(href='#') LinkedIn
+          a(href='#') Codepen
+          a(href='#') JsFiddle
+      hi scroll..    
+  .block-2
+  .block-3
+    .sticky Lobortis &amp; nostrud 
