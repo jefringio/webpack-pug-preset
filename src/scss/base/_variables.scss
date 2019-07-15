@@ -4,7 +4,7 @@ $font-path: '../fonts';
 // Grid breakpoints
 //
 // Define the minimum dimensions at which your layout will change,
-// adapting to different screen sizes, for use in media queries.
+// adapting to #000000different screen sizes, for use in media queries.
 
 $screen-sm: 576px;
 $screen-md: 992px;
@@ -73,6 +73,7 @@ $green:   #6cc0a4;
 $green-dark: #44546a;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$black:   #000000 !default;
 
 $colors: () !default;
 $colors: map-merge((
@@ -90,7 +91,8 @@ $colors: map-merge((
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
-  "gray-darker": $gray-900
+  "gray-darker": $gray-900,
+  "black":       $black
 ), $colors);
 
 $primary:       $yellow !default;

@@ -13,7 +13,22 @@ block manifestBrowserconfigFiles
   meta(name='msapplication-config' content='../browserconfig.xml')
 
 block content
-
-  //- Desktop page
-  section.page
-    h1.page__title--bold # Contact page
+  header.header.sticky.sticky--top.js-header
+    
+    nav.navigation
+      ul.navigation__list.navigation__list--inline
+        li.navigation__item
+          a.is-active(href='#') Home
+        li.navigation__item
+          a(href='#') About Us
+        li.navigation__item
+          a(href='#') Work
+        li.navigation__item
+          a(href='#') Clients
+        li.navigation__item
+          a(href='#') Contact
+  section.grid
+    .bg
+      h1 Please Scroll up guyss.....
+    
+        

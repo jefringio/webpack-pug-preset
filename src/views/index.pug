@@ -1,5 +1,4 @@
 extends ./layouts/master.pug
-
 block title
   title My Page - Home
 
@@ -10,5 +9,66 @@ block manifestBrowserconfigFiles
 block content
 
   //- Desktop page
-  section.page
-    h1.page__title--color-red # Index page
+
+  .main
+    header
+      ul
+        li 
+          a(href="#") Gmail
+        li
+          a(href="#") Images
+        li
+          a(href="#")
+            img(src="../assets/images/facicons/grid.png",  class="app-button")
+        li
+          figure
+            img(src="../assets/images/user1.png",  class="profilepic" style = "back")
+
+    section.search
+      img(src="../assets/images/google.png", alt="Google logo" class="logo")
+      form(action="#")
+        input(type="text" name="Search" class="searchbar")
+        .buttons
+          input(value="Google Search" name="Google Search" type="submit" class="search-button")
+          input(value="I'm Feeling Lucky" name="Google Search" type="submit" class="second-button")
+        
+      ul.language-bar
+        li Google offered in:
+        li 
+          a(href="#") हिन्दी 
+        li 
+          a(href="#") বাংলা 
+        li 
+          a(href="#") తెలుగు 
+        li 
+          a(href="#") मराठी 
+        li 
+          a(href="#") தமிழ் 
+        li 
+          a(href="#") ગુજરાતી 
+        li 
+          a(href="#") ಕನ್ನಡ 
+        li 
+          a(href="#") മലയാളം
+        li 
+          a(href="#") ਪੰਜਾਬੀ
+  
+  footer.foot
+    ul
+      li
+        a(href="#") Advertising
+      li
+        a(href="#") Business
+      li
+        a(href="#") About 
+      li
+        a(href="#") How search works
+    ul.footer-left
+      li  
+        a(href="#") Privacy
+      li  
+        a(href="#") Terms
+      li  
+        a(href="#") Settings
+
+  

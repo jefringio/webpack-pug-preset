@@ -1,7 +1,7 @@
 /* src/app.js */
 
 // Styles
-import './scss/main.scss';
+import './scss/sample.scss';
 import './assets/scripts/demo';
 
 $(document).ready(() => {
